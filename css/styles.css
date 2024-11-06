@@ -1,0 +1,23 @@
+body {
+       font-family: Arial, sans-serif;
+       margin: 0;
+       padding: 20px;
+       background-color: #f4f4f4;
+   }
+
+   #taskList {
+       list-style-type: none;
+       padding: 0;
+   }
+
+   li {
+       padding: 10px;
+       border: 1px solid #ccc;
+       margin-bottom: 5px;
+       background-color: #fff;
+   }
+
+   .completed {
+       text-decoration: line-through;
+       color: gray;
+   }
